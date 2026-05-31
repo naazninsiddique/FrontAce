@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+  --card-color: #f3f4f6;
+  --navbar-color: #6e54fa;
+  --button-color: #6e54fa;
+  --input-color: #ffffff;
+  --section-color: #f9fafb;
+  --secondary-text: #64748b;
+  --big-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+
+body.dark-theme {
+  --bg-color: #0f172a;
+  --text-color: #f8fafc;
+  --card-color: #1e293b;
+  --navbar-color: #111827;
+  --button-color: #8b5cf6;
+  --input-color: #334155;
+  --section-color: #111827;
+  --secondary-text: #94a3b8;
+  --big-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}

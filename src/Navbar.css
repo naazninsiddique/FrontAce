@@ -1,0 +1,70 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--navbar-color);
+  padding: 20px 4%;
+  transition: ease 0.4s;
+}
+.childnavbar {
+  display: flex;
+}
+.childnavbar li {
+  margin: 15px 0;
+}
+.childnavbar a {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: 4px;
+  transition: ease 0.4s;
+}
+.childnavbar a:hover {
+  background: var(--card-color);
+  color: var(--text-color);
+  box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+  border-radius: 4px;
+}
+.humburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.heading {
+  font-size: 35px;
+  font-style: normal;
+  color: var(--text-color);
+}
+@media (max-width: 768px) {
+  .humburger {
+    display: block;
+    color: var(--text-color);
+  }
+  .childnavbar {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: var(--card-color);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    display: none;
+  }
+  .childnavbar.active {
+    display: flex;
+  }
+  .childnavbar a {
+    width: 100%;
+    text-align: center;
+  }
+  .heading {
+    font-size: 16px;
+  }
+}
