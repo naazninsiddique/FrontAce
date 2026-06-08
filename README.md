@@ -1,16 +1,60 @@
-# React + Vite
+# FrontAce – Frontend Interview Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+FrontAce is a React-based frontend interview preparation platform designed to help students and aspiring developers prepare for frontend interviews in a structured and interactive way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform provides organized interview questions, progress tracking, authentication, protected routes, and a responsive user interface to improve the learning experience.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* User Authentication
+* Protected Routes
+* Progress Tracking
+* Dark Mode Support
+* Responsive Design
+* Reusable React Components
+* Local Storage Integration
+* Easy Navigation with React Router
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* React Router
+
+### Storage
+
+* Local Storage
+
+### Deployment
+
+* Netlify
+
+## Project Goals
+
+* Provide a centralized platform for frontend interview preparation.
+* Help users track their learning progress.
+* Improve user experience through responsive and modern UI design.
+
+## Key Learnings
+
+While building FrontAce, I gained hands-on experience with:
+
+* React Component Architecture
+* React Hooks
+* Routing and Navigation
+* State Management
+* Authentication Logic
+* Protected Routes
+* Local Storage
+* Responsive Web Design
+
+## Author
+
+Najnin
+Frontend Developer
